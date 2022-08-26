@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif
+    
+}
+
+body {
+    font-family: Arial;
+}
+
+main {
+
+}
+
+.profile-image {
+    width: 500px;
+    height: 500px;
+    padding: auto;
+    margin: 100px;
+    background-origin: padding-box;
+    border: 50px;
+    border-radius: 50%;
+    flex: center;
+}
+
+.about-me {
+    text-align: center;
+    font-size: larger;
+    font-family: Georgia;
+    padding: auto;
+    margin-bottom: 20%;
+
+}
+
+.card {
+    width: 500px;
+    height: 500px;
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-width: 1px;
+}
+
+.demo {
+    border: 30px;
+    width: 100px;
+    height: 200px;
+}
